@@ -7,5 +7,4 @@ Use the following commands in terminal to run:
 - ./producer & ./consumer & 
 
 KNOWN ISSUES:
-- Occasionally, a process will not print a "Done" pthread line in the terminal. This can be fixed by using CTRL+C as the process has already finished.
-- Upon starting, producer will run only once before locking. This can be fixed by running the "./producer & ./consumer &" command again.
+- Upon starting, producer will run only once before locking. This can be fixed by running the "./producer & ./consumer &" command again. Running it a third time will ensure all processes are closed. 
